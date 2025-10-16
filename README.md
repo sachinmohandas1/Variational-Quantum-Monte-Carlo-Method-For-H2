@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project uses a Variational Quantum Monte Carlo (VQMC) method to estimate the ground state energy and binding energy of a hydrogen molecule (H₂) in atomic units. It was developed as part of a computational physics course (PHYS 7411), and demonstrates the use of quantum trial wavefunctions, the Metropolis algorithm, and parameter optimization via Monte Carlo sampling.
+This project uses a Variational Quantum Monte Carlo (VQMC) method in **Python** to estimate the ground state energy and binding energy of a hydrogen molecule (H₂) in atomic units. It was developed as part of a computational physics course (PHYS 7411), and demonstrates the use of quantum trial wavefunctions, the Metropolis algorithm, and parameter optimization via Monte Carlo sampling.
 
 The project uses a simplified, unitless Hamiltonian derived from atomic units, with fixed proton positions and mobile electrons. The method builds an energy function dependent on the inter-electron distance, incorporating trial wavefunctions with variational parameters to approximate the system’s ground state.
 
